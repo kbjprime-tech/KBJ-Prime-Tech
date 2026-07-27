@@ -1,0 +1,44 @@
+.technologies {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.technologies h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.technologies p {
+  color: #bdbdbd;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.tech-card {
+  background: #151515;
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.tech-card:hover {
+  transform: translateY(-8px);
+}
+
+.tech-icon {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.tech-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}

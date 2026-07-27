@@ -1,0 +1,142 @@
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 50px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #bdbdbd;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Badge */
+.hero-badge {
+  display: inline-block;
+  background: #151515;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+
+/* Boutons */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-buttons .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+  background: #0069d9;
+  transform: translateY(-3px);
+}
+
+.hero-buttons .secondary {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.hero-buttons .secondary:hover {
+  background: white;
+  color: #111;
+}
+
+
+/* Image */
+.hero-image img {
+  width: 450px;
+  max-width: 100%;
+}
+
+
+/* Statistiques */
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.hero-stats h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.hero-stats p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+/* Responsive tablette et mobile */
+@media (max-width: 900px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .hero-stats {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .hero-image img {
+    width: 300px;
+  }
+
+}

@@ -1,0 +1,54 @@
+.contact-section {
+  padding: 100px 50px;
+  text-align: center;
+  background: #111;
+}
+
+.contact-section h2 {
+  font-size: 42px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.contact-section p {
+  color: #bdbdbd;
+  max-width: 600px;
+  margin: 0 auto 35px;
+  line-height: 1.6;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Boutons (liens) */
+.contact-buttons .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact-buttons .btn:hover {
+  background: #0069d9;
+  transform: translateY(-2px);
+}
+
+.contact-buttons .secondary {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.contact-buttons .secondary:hover {
+  background: #fff;
+  color: #111;
+}
