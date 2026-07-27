@@ -23,7 +23,7 @@ function ContactSection() {
         </a>
 
         <a
-          href="mailto:contact@kbjprime.glory@gmail.com"
+          href="mailto:kbjprime.glory@gmail.com"
           className="btn secondary"
         >
           Envoyer un e-mail
